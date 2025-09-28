@@ -1,6 +1,7 @@
 const express = require('express')
 const mongoose = require('mongoose')
 const config = require('./utils/config')
+const path = require('path')
 const logger = require('./utils/logger')
 const middleware = require('./utils/middleware')
 const personsRouter = require('./controllers/persons')

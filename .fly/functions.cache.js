@@ -367,7 +367,7 @@
     testFile: null
   },
   app: {
-    md5sum: '4cd36fd5ce6f58695510725ddc9dfcb2',
+    md5sum: 'a823bb33af4e3dca6e8c92e491e889d8',
     file: '/Users/alexlocke/PROJECTS/phonebook-app/app.js',
     name: 'app',
     root: '/Users/alexlocke/PROJECTS/phonebook-app',
@@ -377,7 +377,7 @@
     testFile: null
   },
   persons: {
-    md5sum: 'bcdb8d11d2459ad0411858b6fd1230ee',
+    md5sum: 'a516a957c9bb10c6d8340c244aa204ee',
     file: '/Users/alexlocke/PROJECTS/phonebook-app/controllers/persons.js',
     name: 'persons',
     root: '/Users/alexlocke/PROJECTS/phonebook-app',
