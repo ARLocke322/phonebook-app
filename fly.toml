@@ -15,7 +15,7 @@ primary_region = 'lhr'
   PORT = "3000" # add this where PORT matches the internal_port below
 
 [processes]
-  app = "node app.js" # add this
+  app = "npm run start" # add this
 
 [http_service]
   internal_port = 3000
