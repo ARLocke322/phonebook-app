@@ -1,7 +1,6 @@
 const express = require('express')
 const mongoose = require('mongoose')
 const config = require('./utils/config')
-const path = require('path')
 const logger = require('./utils/logger')
 const middleware = require('./utils/middleware')
 const personsRouter = require('./controllers/persons')
@@ -22,7 +21,7 @@ mongoose
 
 app.use(cors())
 app.use(express.json())
-app.use(express.static('dist'))  
+app.use(express.static('dist'))
 app.use(middleware.requestLogger)
 
 app.get('/health', (request, response) => {
