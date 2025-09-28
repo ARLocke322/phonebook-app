@@ -25,10 +25,6 @@ personsRouter.get('/', (request, response) => {
   })
 })
 
-personsRouter.get('/health', (request, response) => {
-  response.send('ok')
-})
-
 personsRouter.post('/', (request, response, next) => {
   const body = request.body
 

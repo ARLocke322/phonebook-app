@@ -24,6 +24,10 @@ app.use(express.json())
 app.use(cors())
 app.use(middleware.requestLogger)
 
+app.get('/health', (request, response) => {
+  response.send('ok')
+})
+
 app.use('/api/persons', personsRouter)
 
 app.use(middleware.unknownEndpoint)
