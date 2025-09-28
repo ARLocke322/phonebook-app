@@ -18,6 +18,8 @@ jobs:
       - uses: superfly/flyctl-actions/setup-flyctl@master
       - name: npm install
         run: npm install
+      - name: npm install frontend  # ADD THIS
+        run: cd frontend && npm install
       - name: lint
         run: npm run lint
       - name: build
