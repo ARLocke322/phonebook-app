@@ -25,6 +25,7 @@ app.use(express.static('dist'))
 app.use(middleware.requestLogger)
 
 app.get('/health', (request, response) => {
+
   response.send('ok')
 })
 
